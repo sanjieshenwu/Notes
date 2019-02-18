@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3698B1372217F0E5002723E8 /* FMDatabase */ = {isa = PBXFileReference; lastKnownFileType = text; path = FMDatabase; sourceTree = "<group>"; };
+		3698B1382217F1CF002723E8 /* Sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = text; path = Sqlite3; sourceTree = "<group>"; };
 		36B890ED2215414000DC3BE9 /* Notes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Notes; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B890F02215414000DC3BE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		36B890F72215417800DC3BE9 /* 权限 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "权限"; sourceTree = "<group>"; };
@@ -60,6 +62,8 @@
 			children = (
 				36B890F02215414000DC3BE9 /* main.m */,
 				36B890F72215417800DC3BE9 /* 权限 */,
+				3698B1372217F0E5002723E8 /* FMDatabase */,
+				3698B1382217F1CF002723E8 /* Sqlite3 */,
 			);
 			path = Notes;
 			sourceTree = "<group>";

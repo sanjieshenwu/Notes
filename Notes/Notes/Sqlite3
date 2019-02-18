@@ -1,0 +1,2 @@
+.table 查询所有表名称
+pragma table_info(tableName); 列出表中所有字段
