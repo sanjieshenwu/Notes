@@ -1,0 +1,10 @@
+UIImage 拉伸时固定不拉伸位置
+UIImageResizingModeStrech：拉伸模式，通过拉伸UIEdgeInsets指定的矩形区域来填充图片
+UIImageResizingModeTile：平铺模式，通过重复显示UIEdgeInsets指定的矩形区域来填充图片
++ (UIImage *)resizeWithImage:(UIImage *)image{
+CGFloat top = image.size.height/2.0;
+CGFloat left = image.size.width/2.0;
+CGFloat bottom = image.size.height/2.0;
+CGFloat right = image.size.width/2.0;
+return [image resizableImageWithCapInsets:UIEdgeInsetsMake(top, left, bottom, right)resizingMode:UIImageResizingModeStretch];
+}
